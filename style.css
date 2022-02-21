@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-bg-color: hsl(217, 54%, 11%);
+    --card-bg-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --font-color: hsl(215, 51%, 70%);
+    --eth-font-color: hsl(178, 100%, 50%);
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-bg-color);
+}
+
+.card {
+    margin-top: auto;
+    background: var(--card-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    font-size: 0.5em;
+    padding: 1em;
+    border-radius: 0.6em;
+}
+
+.img-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0.6em;
+}
+
+.img-container img {
+    max-width: 100%;
+    border-radius: 0.6em;
+}
+
+.img-container img:hover {
+    cursor: pointer;
+}
+
+#view-img-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border-radius: 0.6em;
+}
+
+#view-img-container:hover {
+    opacity: 1;
+}
+
+.title {
+    color: white;
+    width: 100%;
+    margin-top: 0.3em;
+    padding: 0.5em 0;
+    font-weight: 600;
+}
+
+.title h2:hover {
+    cursor: pointer;
+    color: var(--eth-font-color);
+}
+
+.description {
+    padding: 0.5em 0;
+    color: var(--font-color);
+}
+
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8em 0;
+    color: var(--font-color);
+}
+
+.ethereum-details {
+    color: var(--eth-font-color);
+}
+
+.eth-and-time {
+    display: flex;
+    width: 40%;
+    font-weight: 400;
+}
+
+.eth-and-time p {
+    padding-left: 0.4em;
+}
+
+hr {
+    width: 100%;
+    color: var(--line-color);
+}
+
+.creater-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.creater-container span {
+    color: white;
+    margin: 0 0.3em 0 0.3em;
+}
+
+.creater-container p {
+    color: var(--font-color);
+    margin-left: 1em;
+    font-weight: 600;
+}
+
+.creater-container span:hover {
+    color: var(--eth-font-color);
+    cursor: pointer;
+}
+
+.creater-container img {
+    width: 2.5em;
+}
+
+.attribution {
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+    color: var(--eth-font-color);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
