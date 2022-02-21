@@ -4,13 +4,13 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot NFT card Preview.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: 
+- Live Site URL: https://nft-preview-page.netlify.app/
 
 ### Built with
 
@@ -20,5 +20,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Instagram @frontendium (https://instagram.com/frontendium)
-- Frontend Mentor - @(https://www.frontendmentor.io/profile/)
+- Instagram @frontendium https://instagram.com/frontendium/
+- Frontend Mentor - @saifion33  https://www.frontendmentor.io/profile/mxplayerofficial/
