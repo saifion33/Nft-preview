@@ -20,5 +20,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Instagram [@frontendium] https://instagram.com/frontendium/
-- Frontend Mentor - [@saifion33] https://www.frontendmentor.io/profile/mxplayerofficial/
+- Instagram [@frontendium](https://instagram.com/frontendium/)
+- Frontend Mentor - [@saifion33](https://www.frontendmentor.io/profile/mxplayerofficial/)
