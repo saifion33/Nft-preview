@@ -4,7 +4,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![nft card preview](./images/Screenshot NFT card Preview.png)
+![nft card preview](https://github.com/saifion33/Nft-preview/blob/main/images/Screenshot%20NFT%20card%20Preview.png)
 
 
 ### Links
